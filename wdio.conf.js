@@ -23,13 +23,12 @@ export const config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './test/specs/**/*.js',
-        './test/smoke/**/*.js',
-        './test/specs/product.api.js',
-        './test/specs/category.api.js',
-        './test/specs/user.api.js',
-        './test/specs/auth.api.js',
-        './test/specs/notification.api.js'
+        './test/specs/**/*.js'
+        // './test/specs/product.api.js',
+        // './test/specs/category.api.js',
+        // './test/specs/user.api.js',
+        // './test/specs/auth.api.js',
+        // './test/specs/notification.api.js'
     ],
     // Patterns to exclude.
     exclude: [
