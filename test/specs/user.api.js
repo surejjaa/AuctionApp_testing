@@ -25,5 +25,4 @@ describe('API users test for Auction App', () => {
         const response = await requestsPage.putRequest(url, data);
         await requestsPage.matchingData(response.status, requestsPage.status);
     });
-
 })

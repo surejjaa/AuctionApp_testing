@@ -106,6 +106,7 @@ class DataGenerator extends Page{
             "productId": "c51a5a2e-c653-42a9-9bc1-ca40f4e56832"
         }
     }
+    
 }
 
 export default new DataGenerator();

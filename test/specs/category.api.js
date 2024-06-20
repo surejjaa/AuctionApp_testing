@@ -1,6 +1,4 @@
-import { expect } from '@wdio/globals'
 import requestsPage from '../pageobjects/requests.page.js'
-import dataGenerator from '../pageobjects/data.generator.js';
 
 describe('API categories test for Auction App', () => {    
     it('makes a GET request for all listed categories', async () => {

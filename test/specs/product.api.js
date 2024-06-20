@@ -1,6 +1,4 @@
-import { expect } from '@wdio/globals'
 import requestsPage from '../pageobjects/requests.page.js'
-import dataGenerator from '../pageobjects/data.generator.js';
 
 describe('API products test for Auction App', () => {  
     it('makes a GET request for all listed products', async () => {
@@ -54,4 +52,5 @@ describe('API products test for Auction App', () => {
     //     const response = await requestsPage.deleteRequest(url);
     //     await expect(response.status).toEqual(requestsPage.status);
     // });
+    
 })
