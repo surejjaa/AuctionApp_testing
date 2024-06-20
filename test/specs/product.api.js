@@ -52,4 +52,5 @@ describe('API products test for Auction App', () => {
     //     const response = await requestsPage.deleteRequest(url);
     //     await expect(response.status).toEqual(requestsPage.status);
     // });
+    
 })

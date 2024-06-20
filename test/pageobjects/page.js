@@ -13,7 +13,6 @@ export default class Page {
         this.forbiddenStatus = 403;
         this.userId = "49d2f5e3-2f00-479f-9e5b-84d19ad201c0";
         this.token = "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiVVNFUiIsImlkIjoiNDlkMmY1ZTMtMmYwMC00NzlmLTllNWItODRkMTlhZDIwMWMwIiwic3ViIjoibGVqbGFtdXJhdG92aWNAZ21haWwuY29tIiwiaWF0IjoxNzE4NzQyMTcyLCJleHAiOjE3MTk5NTE3NzJ9.G0imlEoUtWdQChmpuJ3mNWTYEGzXcpPYGjeUkPToad0";
-        //this.token = "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiVVNFUiIsImlkIjoiNDlkMmY1ZTMtMmYwMC00NzlmLTllNWItODRkMTlhZDIwMWMwIiwic3ViIjoibGVqbGFtdXJhdG92aWNAZ21haWwuY29tIiwiaWF0IjoxNzE4MTI5NDA4LCJleHAiOjE3MTg3MzQyMDh9.n81Rlmk-Y6s2VmcI28_oQ6yGNMAxPnvt8YyyPE1VvEc";
     }
 
     async generateData(){

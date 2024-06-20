@@ -1,4 +1,3 @@
-import { expect } from '@wdio/globals'
 import requestsPage from '../pageobjects/requests.page.js'
 import dataGenerator from '../pageobjects/data.generator.js';
 
