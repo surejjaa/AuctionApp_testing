@@ -65,6 +65,11 @@ export const config = {
     //, {
     //     browserName: 'MicrosoftEdge'
     // }
+    ], 
+    services: [
+        ['chromedriver', {
+            version: 'matching',
+        }]
     ],
 
     //
