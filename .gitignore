@@ -1,7 +1,4 @@
 node_modules/
 allure-report/
 allure-results/
-smoke/
-wdio.conf.js
-package.json
-package-lock.json
+uitests/

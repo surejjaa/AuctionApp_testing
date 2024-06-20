@@ -15,11 +15,11 @@ class DataGenerator extends Page{
 
     async generateData(){
         const product = {
-            "name": "Winter Coat",
-            "description": "Women's Waterproof Coat",
-            "startPrice": 10,
+            "name": "HP Laptop",
+            "description": "HP Laptop with 1 TB memory",
+            "startPrice": 100,
             "startDate": "2024-05-10T11:10:07",
-            "endDate": "2024-09-10T11:10:07",
+            "endDate": "2025-09-10T11:10:07",
             "status": "ACTIVE",
             "categoryId": "646baf8b-9095-4393-ac55-5e43fa9f24bf",
             "cardNumber": "123456789",
@@ -27,13 +27,13 @@ class DataGenerator extends Page{
             "nameOnCard": "Some Name",
             "expirationDate": "2024-09-10",
             "zipCode": "1234",
-            "city": "Oslo",
+            "city": "Istanbul",
             "address": "123 Main St",
-            "country": "Norway",
+            "country": "Turkey",
             "useExistingPaymentInfo": false 
         }
         const images = {
-            "imageUrl": './test/utils/coat.jpg'
+            "imageUrl": './test/utils/laptop.jpg'
         }
         return {product, images};
     }
@@ -42,7 +42,7 @@ class DataGenerator extends Page{
         return {
             "firstName": "Testing",
             "lastName": "Profile",
-            "email": "unknown@gmail.com",
+            "email": "unknownmail@gmail.com",
             "password": "testing123",
             "dateOfBirth": "2000-01-01",
             "address": "Address 123",
@@ -82,6 +82,29 @@ class DataGenerator extends Page{
                 }
             }
         };
+    }
+
+    async register(){
+        return {
+            "firstName": "Automated",
+            "lastName": "Test",
+            "email": "testingmail@gmail.com",
+            "password": "Testing1234"
+        }
+    }
+
+    async login(){
+        return {
+            "email": "lejlamuratovic@gmail.com",
+            "password": "Password123"
+        }
+    }
+
+    async getNotifications(){
+        return {
+            "userId": "49d2f5e3-2f00-479f-9e5b-84d19ad201c0",
+            "productId": "c51a5a2e-c653-42a9-9bc1-ca40f4e56832"
+        }
     }
 }
 

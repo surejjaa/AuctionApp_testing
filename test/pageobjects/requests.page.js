@@ -16,6 +16,19 @@ class RequestsPage extends Page {
         }
     }
 
+    async getRequestWithParams(url, data){
+        try {
+            const response = await axios.get(`${url}`, data, {
+                headers: { 'Authorization': `Bearer ${this.token}`, 'Content-Type': 'application/json' }
+            });
+            console.log(response);
+            return response;
+        } catch (error) {
+            console.log(error);
+            throw error;
+        }
+    }
+
     // async constructFormData(data) {
     //     const formData = new FormData();
     //     if (data.jsonData) {

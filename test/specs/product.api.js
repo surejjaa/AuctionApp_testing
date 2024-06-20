@@ -45,9 +45,9 @@ describe('API products test for Auction App', () => {
         await requestsPage.matchingData(response.status, requestsPage.status);
     });
 
-    // it('makes a POST request for a product', async () => {
-    //     await requestsPage.postProduct();
-    // });
+    it('makes a POST request for a product', async () => {
+        await requestsPage.postProduct();
+    });
 
     // it('makes a DELETE request for a specific product', async () => {
     //     const url = await await requestsPage.buildUrl('products/3a92d478-8772-4ce4-a99e-04d291f6ed68');
